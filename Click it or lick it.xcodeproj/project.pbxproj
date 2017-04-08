@@ -12,16 +12,18 @@
 		6E87C0E01E990C90006D85D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E87C0DE1E990C90006D85D7 /* Main.storyboard */; };
 		6E87C0E21E990C90006D85D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E87C0E11E990C90006D85D7 /* Assets.xcassets */; };
 		6E87C0E51E990C90006D85D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E87C0E31E990C90006D85D7 /* LaunchScreen.storyboard */; };
+		6E87C0EF1E993365006D85D7 /* clicker.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6E87C0EE1E993365006D85D7 /* clicker.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6E87C0D71E990C90006D85D7 /* Click it or lick it.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Click it or lick it.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E87C0D71E990C90006D85D7 /* AssetHound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssetHound.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E87C0DA1E990C90006D85D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E87C0DC1E990C90006D85D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6E87C0DF1E990C90006D85D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6E87C0E11E990C90006D85D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E87C0E41E990C90006D85D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E87C0E61E990C90006D85D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E87C0EE1E993365006D85D7 /* clicker.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = clicker.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +48,7 @@
 		6E87C0D81E990C90006D85D7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6E87C0D71E990C90006D85D7 /* Click it or lick it.app */,
+				6E87C0D71E990C90006D85D7 /* AssetHound.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +62,7 @@
 				6E87C0E11E990C90006D85D7 /* Assets.xcassets */,
 				6E87C0E31E990C90006D85D7 /* LaunchScreen.storyboard */,
 				6E87C0E61E990C90006D85D7 /* Info.plist */,
+				6E87C0EE1E993365006D85D7 /* clicker.mp3 */,
 			);
 			path = "Click it or lick it";
 			sourceTree = "<group>";
@@ -81,7 +84,7 @@
 			);
 			name = "Click it or lick it";
 			productName = "Click it or lick it";
-			productReference = 6E87C0D71E990C90006D85D7 /* Click it or lick it.app */;
+			productReference = 6E87C0D71E990C90006D85D7 /* AssetHound.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -126,6 +129,7 @@
 			files = (
 				6E87C0E51E990C90006D85D7 /* LaunchScreen.storyboard in Resources */,
 				6E87C0E21E990C90006D85D7 /* Assets.xcassets in Resources */,
+				6E87C0EF1E993365006D85D7 /* clicker.mp3 in Resources */,
 				6E87C0E01E990C90006D85D7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,7 +269,7 @@
 				INFOPLIST_FILE = "Click it or lick it/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.laurazornosa.Click-it-or-lick-it";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AssetHound;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -278,7 +282,7 @@
 				INFOPLIST_FILE = "Click it or lick it/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.laurazornosa.Click-it-or-lick-it";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AssetHound;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -302,6 +306,7 @@
 				6E87C0EB1E990C90006D85D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
